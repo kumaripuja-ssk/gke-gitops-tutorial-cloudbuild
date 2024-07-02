@@ -80,3 +80,5 @@ steps:
     git push origin candidate
 
 # [END cloudbuild-trigger-cd]
+options:
+  logging: CLOUD_LOGGING_ONLY
